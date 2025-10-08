@@ -4,7 +4,7 @@ public class array {
        
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){
-                arr[i][j]=(int)(Math.random()*100);
+                arr[i][j]=(int)(Math.random()*10);
             }
         }
 
@@ -14,6 +14,15 @@ public class array {
             }
             System.out.println();
         }
+
+        for(int n[]:arr)
+        {
+            for(int m:n)
+            {
+                System.out.println( m+" ");
+            }
+        }
+
     }
     
 }
