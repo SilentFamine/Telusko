@@ -19,7 +19,7 @@ public class array {
         {
             for(int m:n)
             {
-                System.out.println( m+" ");
+                System.out.print( m+" ");
             }
         }
 
